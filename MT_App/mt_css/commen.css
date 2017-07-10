@@ -1,0 +1,64 @@
+/*样式重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    border: 0;
+}
+
+/**/
+body{
+    font-size: 0.28rem;
+    background: #f0efed;
+}
+
+
+/*fixed开始*/
+#fixed_kong{
+    height: 1.4rem;
+    width: 100%;
+}
+#fixed{
+    height: 1.4rem;
+    width: 100%;
+    padding: 0.1rem 0.4rem ;
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+}
+#fixed img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+#fixed div{
+    position: absolute;
+    top: 25%;
+    left: 2.0rem;
+}
+#fixed div p{
+    color: #ffffff;
+    margin: 0.01rem 0;
+    font-size: 0.28rem;
+}
+#fixed a{
+    position: absolute;
+    width: 1.7rem;
+    height: 0.7rem;
+    border: 0.01rem solid #06c1ae;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 0.7rem;
+    right: 1.2rem;
+    top: 50%;
+    margin-top: -0.35rem;
+    color: #06c1ae;
+}
+/*fixed结束*/

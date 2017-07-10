@@ -1,0 +1,10 @@
+/*header¿ªÊ¼*/
+#header{
+    height: 1rem;
+    background: #06c1ae;
+}
+#header div{
+    display: inline-block;
+}
+
+/*header½áÊø*/
